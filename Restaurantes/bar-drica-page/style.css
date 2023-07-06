@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300;500;600;700&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+.section-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.title-page {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 24px;
+  padding: 4px;
+  border-bottom: 6px solid rgb(230, 230, 230);
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin-top: 10px;
+}
+.section-name-and-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 24px;
+}
+.logo {
+  width: 49px;
+  height: 48px;
+  margin-left: 5px;
+}
+.section-cardapio-input-and-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.cardapio {
+  width: 275px;
+  height: 350px;
+}
+.div-input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 18px;
+}
+.numero-mesa {
+  border-radius: 8px;
+  border: 1px solid black;
+  height: 38px;
+}
+.button-chamar-garcom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px rgb(0, 0, 0);
+  background-color: brown;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 24px;
+  color: white;
+  cursor: pointer;
+}
